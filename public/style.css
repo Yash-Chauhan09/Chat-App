@@ -12,7 +12,7 @@ body{
     height: 100vh;
     width: 100vw;
     /* background: url(../img/backimg.jpg) no-repeat center center/cover ;  */
-    background-image: linear-gradient(334.3deg,rgba(0, 0, 0, 0.349) 50%, transparent 50%),url(../img/backimg.jpg) ;
+    background-image: linear-gradient(334.3deg,rgba(0, 0, 0, 0.349) 50%, transparent 50%),url(../backimg.jpg) ;
     background-repeat: no-repeat;
     background-position: center ;
     background-size: cover;
