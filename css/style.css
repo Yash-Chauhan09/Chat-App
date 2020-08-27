@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    /* background: url(../img/backimg.jpg) no-repeat center center/cover ;  */
+    background-image: linear-gradient(334.3deg,rgba(0, 0, 0, 0.349) 50%, transparent 50%),url(../img/backimg.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    font-family: cursive;
+}
+h2{
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+h5{
+    font-size: 1.4rem;
+    color: black;
+    margin-bottom: 5px;
+}
+.container{
+    height:  calc(100vh - 30vh);
+    width: calc(100vw - 40vw);
+    border: 2px solid black;
+    padding: 6px;
+    overflow-y: auto;
+}
+.texts{
+    background-color: white;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    padding: 5px 2px;
+    margin: 6px 0;
+}
+.urchat{
+    background-color: rgba(255, 255, 255, 0.657);
+    color: rgb(0, 0, 0); 
+}
+.otherschat{
+    background-color: rgba(32, 32, 32, 0.657);
+    color: white;
+}
+#sendcontainer{
+    margin: 7px;
+}
+#inpmsg{
+    width: calc(100vw - 45vw);
+    padding: 5px;
+    font-size: 1rem;
+    outline: palevioletred;
+}
+#sendbtn{
+    font-size: .95rem;
+    padding:5px 12px ;
+    background-color: transparent;
+    color: white;
+    outline: palevioletred;
+    border: double solid black;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#sendbtn:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid rgb(211, 30, 126);
+}
